@@ -1,0 +1,99 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #8400ff;
+            background-image: url("assets/Lovepik_com-401504844-wisteria-flower-purple-green-leaf.png");
+        }
+        .wrapper{
+            position: relative;
+            width: 600px;
+            height: 400px;
+            background: #fff;
+            border-radius: 20px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 2px 5px #000;
+
+        }
+
+        i {
+            font-size: 7.5em;
+            color: #8400ff;
+            border: 5px solid transparent;
+            outline: 4px solid #8400ff ;
+            border-radius:  50%;
+        }
+        h2{
+            font-size: 3em;
+            color: #8400ff;
+            margin: 15px 0;
+        }
+        .btn-group{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            margin-top: 15px;
+            justify-content: center;
+        }
+        button{
+            position: absolute;
+            width: 150px;
+            height: inherit;
+            font-size: 1.2em;
+            color: #fff;
+            font-weight: 600px;
+            border-radius: 40px;
+            border:  2px solid #8400ff;
+            outline: none;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+        }
+        button:nth-child(1){
+            margin-left: -200px;
+            background: #8400ff;
+        }
+        button:nth-child(2){
+            margin-right: -200px;
+            color: #8400ff;
+        }
+    </style>
+    <div class="wrapper">
+        <i class="fa-solid fa-circle-question"></i>
+        <h2 class="question">Do you love me?</h2>
+        <div class="btn-group">
+            <button class="yes-btn">Yes</button>
+            <button class="No-btn">No</button>
+
+        </div>
+    </div>
+
+    <script src="App.js"></script>
+</body>
+
+</html>
